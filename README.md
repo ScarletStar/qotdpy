@@ -1,0 +1,2 @@
+# qotdpy
+Simple QOTD server
