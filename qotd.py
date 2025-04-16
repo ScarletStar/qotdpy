@@ -19,7 +19,7 @@ def read_random_line(file_path):
 while True:
     print("server up")
     sock, addr = server.accept()
-    print("connecting to socket" + sock + ":" + addr)
+    print("connecting to socket" + addr)
     quote = read_random_line(quotes)    
     sock.send(f"{quote}\n".encode("utf-8"))
     sock.close()
