@@ -1,4 +1,4 @@
-from python:3.13-slim
+from python:3.13
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
@@ -7,4 +7,4 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Specify the command to run the application
-CMD ["python3", "./qotd.py"]
+CMD ["python3", "qotd.py"]
