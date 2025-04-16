@@ -3,7 +3,7 @@ import random
 
 quotes = "./quotes.txt"
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(("0.0.0.0", 1776)) # Bind to port 17
+server.bind(("0.0.0.0", 17)) # Bind to port 17
 server.listen(5)
 
 
